@@ -6,23 +6,13 @@
 
 #IncludeRegexTransform: 
 
-../include/Home.h
+../include/class/figures.h
 iostream
 -
-
-../include/Tree.h
 vector
 -
-string
+cmath
 -
-map
--
-cstdlib
--
-cassert
--
-Home.h
-../include/Home.h
 
 D:/Programming/c++/skill_box/src/main.cpp
 iostream
@@ -41,6 +31,6 @@ ctime
 -
 iomanip
 -
-Tree.h
-D:/Programming/c++/skill_box/src/Tree.h
+class/figures.h
+D:/Programming/c++/skill_box/src/class/figures.h
 
