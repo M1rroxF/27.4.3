@@ -6,12 +6,12 @@
 
 #IncludeRegexTransform: 
 
-../include/class/figures.h
+../include/class/command.h
 iostream
 -
-vector
+cstdlib
 -
-cmath
+vector
 -
 
 D:/Programming/c++/skill_box/src/main.cpp
@@ -31,6 +31,6 @@ ctime
 -
 iomanip
 -
-class/figures.h
-D:/Programming/c++/skill_box/src/class/figures.h
+command.h
+-
 

@@ -72,7 +72,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Programming/c++/skill_box/include/class/figures.h">
+		<Unit filename="D:/Programming/c++/skill_box/include/class/command.h">
 			<Option target="27.4"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skill_box/src/main.cpp">

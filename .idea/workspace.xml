@@ -12,21 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7936be1b-8937-4d66-8c54-6a4fd449ba75" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/include/class/figures.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/27.4.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/27.4.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/27.4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/27.4.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/27.4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/27.4.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/27.4.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/27.4.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/27.4.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/27.4.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/27.4.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/27.4.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/27.4.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/27.4.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/27.4.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/27.4.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/27.4.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/27.4.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Home.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Tree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/class/figures.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
@@ -41,6 +36,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1zpEdpwbaiC8yZ1OvXM6UiCDKpC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -103,7 +106,11 @@
       <workItem from="1634999898273" duration="1023000" />
       <workItem from="1635008802080" duration="5058000" />
       <workItem from="1635049183650" duration="1069000" />
-      <workItem from="1635064746781" duration="2839000" />
+      <workItem from="1635064746781" duration="3323000" />
+      <workItem from="1635085280048" duration="1836000" />
+      <workItem from="1635142315410" duration="1074000" />
+      <workItem from="1635145578827" duration="2046000" />
+      <workItem from="1635151036825" duration="5541000" />
     </task>
     <servers />
   </component>

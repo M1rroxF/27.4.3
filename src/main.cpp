@@ -9,39 +9,58 @@
 
 using namespace std;
 
-#include "class/figures.h"
+#include <command.h>
 
 int main()
 {
-    cout << "Enter figure: ";
-    string figure; cin >> figure;
+    vector<Command> commands;
+    {
+        cout << "Enter number of commands: ";
+        int count_commands; cin >> count_commands;
 
-    if (figure == "circle")
-    {
-        Circle circle = Circle();
-        cout << "S: " << circle.set_s() << endl;
-        vector<double> rSqrt = circle.set_rectangle();
-        cout << "Rectangle: " << rSqrt[0] << " " << rSqrt[1] << endl;
+        commands.resize(count_commands);
+
+        for (int i = 0; i < count_commands; i++)
+        {
+            cout << "Enter amount of workers with command #" << i << ": ";
+            int amount_workers; cin >> amount_workers;
+
+            commands[i].init(amount_workers, i);
+        }
     }
-    else if (figure == "triangle")
+
+    bool go = true;
+    while (go)
     {
-        Triangle triangle = Triangle();
-        cout << "S: " << triangle.set_s() << endl;
-        vector<double> rSqrt = triangle.set_rectangle();
-        cout << "Rectangle: " << rSqrt[0] << " " << rSqrt[1] << endl;
-    }
-    else if (figure == "square")
-    {
-        Square square = Square();
-        cout << "S: " << square.set_s() << endl;
-        vector<double> rSqrt = square.set_rectangle();
-        cout << "Rectangle: " << rSqrt[0] << " " << rSqrt[1] << endl;
-    }
-    else if (figure == "rectangle")
-    {
-        Rectangle rectangle = Rectangle();
-        cout << "S: " << rectangle.set_s() << endl;
-        vector<double> rSqrt = rectangle.set_rectangle();
-        cout << "Rectangle: " << rSqrt[0] << " " << rSqrt[1] << endl;
+        string n;
+        cout << "print?\n";
+        cin >> n;
+
+        if (n == "print")
+        {
+            for (int i = 0; i < commands.size(); i++)
+            {
+                commands[i].print();
+            }
+        }
+
+        for (int i = 0; i < commands.size(); i++)
+        {
+            cout << "Add work to command #" << i << ": ";
+            int work; cin >> work;
+            commands[i].add_work(work);
+        }
+
+        bool go2 = true;
+        for (int i = 0; i < commands.size() && go2; i++)
+        {
+            if (!commands[i].all_is_working())
+            {
+                go2 = false;
+            }
+        }
+
+        if (go2)
+            go = false;
     }
 }
